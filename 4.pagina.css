@@ -1,0 +1,16 @@
+:root{--bg:#f6fbff;--card:#ffffff;--accent:#3466ff;--muted:#64748b}
+*{box-sizing:border-box;font-family:Segoe UI,Roboto,Arial,sans-serif}
+html,body{height:100%;margin:0;background:linear-gradient(180deg,#eef6ff 0%,var(--bg) 100%);color:#0b1220}
+.card{max-width:520px;margin:6vh auto;padding:28px;border-radius:12px;background:var(--card);box-shadow:0 10px 30px rgba(20,40,80,0.08);border:1px solid rgba(15,23,42,0.04)}
+.card h1{margin:0 0 8px;font-size:20px}
+.lead{color:var(--muted);margin:0 0 18px}
+.field{display:block;margin-bottom:12px}
+.field span{display:block;color:var(--muted);font-size:13px;margin-bottom:6px}
+.field input{width:100%;padding:12px;border-radius:8px;border:1px solid rgba(15,23,42,0.06);background:transparent;color:inherit;font-size:16px}
+.actions{display:flex;gap:10px;margin-top:8px}
+.btn{flex:1;padding:10px 12px;border-radius:10px;border:1px solid rgba(15,23,42,0.06);cursor:pointer;font-weight:600}
+.btn.primary{background:linear-gradient(90deg,var(--accent),#5b8bff);color:white}
+.btn.ghost{background:transparent;color:var(--muted)}
+.result{margin-top:16px;padding:12px;border-radius:8px;background:linear-gradient(90deg,rgba(52,102,255,0.05),rgba(52,102,255,0.02));min-height:44px;display:flex;align-items:center}
+.note{display:block;color:var(--muted);margin-top:10px;font-size:12px}
+@media (max-width:480px){.card{margin:4vh 12px;padding:18px}}
