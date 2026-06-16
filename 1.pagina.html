@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Conversor — cm para m</title>
+		<link rel="stylesheet" href="1.pagina.css">
+	</head>
+	<body>
+		<div class="app">
+			<header class="hero">
+				<h1>Conversor de Unidades</h1>
+				<p>Converta centímetros para metros de forma rápida e simples</p>
+			</header>
+
+			<main class="card">
+				<label for="cm">Valor em centímetros</label>
+				<input id="cm" type="number" inputmode="decimal" placeholder="Ex: 150" />
+
+				<div class="controls">
+					<button id="convert" class="primary">Converter</button>
+					<button id="clear" class="ghost">Limpar</button>
+				</div>
+
+				<div id="result" class="result" aria-live="polite"></div>
+				<p class="hint">Use ponto para decimais (ex: 12.5). Resultado com até 3 casas decimais.</p>
+			</main>
+
+			<footer class="footer">Feito com ♥ — Conversor Online</footer>
+		</div>
+
+		<script src="1.pagina.js"></script>
+	</body>
+</html>
+
