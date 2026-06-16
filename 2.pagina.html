@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Kelvin → Celsius</title>
+    <link rel="stylesheet" href="2.pagina.css">
+</head>
+<body>
+    <main class="card" role="main">
+        <div class="header">
+            <div class="logo">K→C</div>
+            <div>
+                <h1>Conversor de Temperatura</h1>
+                <div class="lead">Converta valores de Kelvin para Celsius de forma rápida.</div>
+            </div>
+        </div>
+
+        <div class="form">
+            <input id="kelvinInput" type="text" inputmode="decimal" placeholder="Valor em Kelvin (ex: 300)">
+            <button id="convertBtn">Converter</button>
+        </div>
+
+        <div id="result" class="result muted">Resultado aparecerá aqui</div>
+
+        <div style="display:flex;justify-content:space-between;margin-top:12px;align-items:center">
+            <div class="small muted">Powered by sua página</div>
+            <div class="actions">
+                <button id="copyBtn" class="copy">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="2.pagina.js"></script>
+</body>
+</html>
